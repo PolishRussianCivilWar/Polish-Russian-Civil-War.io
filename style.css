@@ -1,0 +1,46 @@
+/* Background setup */
+body {
+  background-color: #0b0c0d;
+  color: #d4d4dc;
+  font-family: 'Spectral SC', serif;
+  background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dscary%2Bface&psig=AOvVaw1PUMCbMvfrxDQZG8w8RiWA&ust=1731490582185000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCLjOiZy_1okDFQAAAAAdAAAAABAE');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  padding: 20px;
+}
+
+/* Dark, mysterious header style */
+h1, h2, h3, h4 {
+  color: #ff6347; /* Creepy reddish-orange color */
+  text-shadow: 2px 2px 5px #000;
+}
+
+/* Links with eerie glow */
+a {
+  color: #f0e130;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  color: #ff6347;
+  text-shadow: 0px 0px 10px #ff4500;
+}
+
+/* Customize list appearance */
+ul {
+  list-style-type: circle;
+  color: #d4d4dc;
+  padding-left: 20px;
+}
+li {
+  margin: 10px 0;
+}
+
+/* Spooky footer */
+footer {
+  font-size: 0.8em;
+  color: #666;
+  text-align: center;
+  padding-top: 10px;
+}
